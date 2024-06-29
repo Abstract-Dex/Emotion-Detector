@@ -5,3 +5,5 @@ This is an emotion detector that can automatically identify emotion states such 
 ## Dataset
 
 The model is trained on the [Emotion Dataset](https://huggingface.co/datasets/emotion) which contains 60,000 records of labelled text data. Unlike most sentiment analysis datasets that involve just "positive" and "negative" polarities, this dataset contains six basic emotions: anger, fear, joy, love, sadness, and surprise.
+
+The deployment code for streamlit is in the `app.py` file. The model is trained in the `Emotion-Detector.ipynb` file.
